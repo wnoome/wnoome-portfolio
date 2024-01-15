@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willow Noome - Portfolio</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-content">
+            <div class="image-container">
+                <img class="img" src="IMG/slay-removebg-preview.png" alt="Willow Noome">
+            </div>
+            <div class="text-container">
+                <h1>Willow Noomé</h1>
+                <p class="pw">Portfolio Website</p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="buttons">
+        <a href="law.html" class="button">Law</a>
+        <a href="software.html" class="button">Software</a>
+        <a href="modelling.html" class="button">Modelling</a>
+        <a href="cvmedia.html" class="button">CV/Media</a>
+    </nav>
+
+    <div class="container">
+        <form>
+            <h3>Contact Me</h3>
+            <input type="text" id="fullName" placeholder="Your Name" required>
+            <input type="email" id="email_id" placeholder="Your Email" required>
+            <input type="tel" id="phone" placeholder="Your Phone Number" required>
+            <textarea id="message" rows="4" placeholder="Type Your Message..." required></textarea>
+            <button type="button" onclick="sendMail()">Submit</button>
+        </form>
+    </div>
+
+    <div class="information">
+        <p>Email: willownoome15@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/willow-noom%C3%A9-8081351b2/" target="_blank">Willow Noomé</a></p>
+    </div>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</body>
+
+</html>
+

@@ -1,0 +1,88 @@
+Law css
+/* Styling for the Law Page */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+header {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #ffe9f6;
+}
+
+h1.law-header {
+  font-size: 3em;
+  font-family: 'Space Grotesk', sans-serif;
+  margin: 0;
+  color: #333;
+}
+
+h2.work-experience,
+h2.volunteering,
+h2.engagement {
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
+  margin-bottom: 20px;
+}
+
+.experience-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.experience {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: circle;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.button {
+  text-decoration: none;
+  color: #fff;
+  background-color: lightpink;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-family: 'Russo One';
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: pink;
+}
+
+.back-button {
+  text-align: left;
+  margin-top: 20px;
+}
+
+/* Add more styles for other sections if needed */
+

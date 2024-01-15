@@ -1,0 +1,95 @@
+Soft css
+
+/* Styling for the SOFTWARE page */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+header {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #ffe9f6;
+}
+
+h1.com-header {
+  font-size: 3em;
+  margin: 0;
+  color: #333;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.button {
+  text-decoration: none;
+  color: #fff;
+  background-color: lightpink;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-family: 'Russo One';
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: pink;
+}
+
+.back-button {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.coursework-section,
+.languages-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.coursework-section p {
+  font-size: 1em;
+  color: #333;
+}
+
+.languages-section h5 {
+  font-size: 1.5em;
+  font-family: 'Space Grotesk';
+  color: #333;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.language-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.language-container img {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+}
+
+.center-text {
+  text-align: center;
+  margin: auto;
+  max-width: 600px;
+  padding-top: 25px;
+}
+
+.projects {
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Space Grotesk';
+  color: #333;
+  margin-top: 20px;
+}
+
